@@ -22,7 +22,7 @@ add([
 setGravity(1600)
 
 // jump function
-onKeyPress("Space", () => {
+onKeyPress("space", () => {
     if (mario.isGrounded()){
     mario.jump()
     }
