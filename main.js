@@ -9,11 +9,22 @@ const mario = add([
     area(),
     body(),
 ])
-
+// Add Platform
+add([
+    rect(width(), 48),
+    pos(0, height()- 48),
+    outline(4),
+    area(),
+    body({ isStatic: true }),
+    color(255,255,255),
+])
 
 setGravity(1600)
 
 // jump function
 onKeyPress("Space", () => {
-    mario.jump()
+    if (mario.isGrounded()){
+
+    }
+    Mario.jump()
 })
