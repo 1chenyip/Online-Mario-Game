@@ -9,7 +9,7 @@ loadSprite('player', 'Images/mario64.png')
 const mario = add([
     sprite('player'),
     pos(80, 100),
-    scale(1.0),
+    scale(0.2),
     area(),
     body(),
 ])
