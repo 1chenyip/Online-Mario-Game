@@ -1,8 +1,4 @@
-kaboom({
-    width: 1285,
-    height: 720
-
-})
+kaboom()
 
 setBackground(Color.fromHex('#36A6E0'))
 loadSprite('player', 'Images/mario64.png')
