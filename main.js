@@ -1,6 +1,6 @@
 kaboom({
     width: 1285,
-    height: 720,
+    height: 720
 
 })
 
@@ -19,5 +19,5 @@ setGravity(1600)
 
 // jump function
 onKeyPress("Space", () => {
-    Mario.jump()
+    mario.jump()
 })
